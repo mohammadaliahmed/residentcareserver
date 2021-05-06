@@ -33,7 +33,7 @@
                                 clear to you exactly what you’re paying for.
                             </p>
                             <p>
-                                The NDVHS Sahoolat app stores and processes personal data that
+                                The Resident Care app stores and processes personal data that
                                 you have provided to us, in order to provide our
                                 Service. It’s your responsibility to keep your phone and
                                 access to the app secure. We therefore recommend that you do
@@ -42,7 +42,7 @@
                                 official operating system of your device. It could make your
                                 phone vulnerable to malware/viruses/malicious programs,
                                 compromise your phone’s security features and it could mean
-                                that the NDVHS Sahoolat app won’t work properly or at all.
+                                that the Resident Care app won’t work properly or at all.
                             </p>
                             <div><p>
                                     The app does use third party services that declare their own

@@ -11,7 +11,7 @@
                         <div class="col-md-10 col-md-offset-1">
                             <strong>Privacy Policy</strong>
                             <p>
-                                NDVHS built the NDVHS Sahoolat app as
+                                NDVHS built the Resident Care app as
                                 a Free app. This SERVICE is provided by
                                 NDVHS at no cost and is intended for use as
                                 is.
@@ -32,7 +32,7 @@
                             <p>
                                 The terms used in this Privacy Policy have the same meanings
                                 as in our Terms and Conditions, which is accessible at
-                                NDVHS Sahoolat unless otherwise defined in this Privacy Policy.
+                                Resident Care unless otherwise defined in this Privacy Policy.
                             </p>
                             <p><strong>Information Collection and Use</strong></p>
                             <p>

@@ -26,7 +26,7 @@ class PagesController extends Controller
         ]);
         $settings = Settings::all()->first();
         Mail::send('mails.contact',['request'=>$request], function ($message) use ($settings){
-            $message->from('support@ndvhs.com', 'NDVHS Sahoolat New Contact');
+            $message->from('support@ndvhs.com', 'Resident Care New Contact');
             $message->subject('New Contact');
             $message->to($settings->admin_email);
         });

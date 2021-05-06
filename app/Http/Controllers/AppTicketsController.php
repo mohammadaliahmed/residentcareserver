@@ -228,7 +228,7 @@ class AppTicketsController extends Controller
 
 
             Mail::send('mails.appthanks', ['ticket' => $request, 'department' => $department, 'username' => $usr->name, 'subject' => $request->title], function ($message) use ($settings) {
-                $message->from('support@ndvhs.com', 'NDVHS Sahoolat');
+                $message->from('support@ndvhs.com', 'Resident Care');
                 $message->subject('New Ticket Created');
                 $message->to($settings->admin_email);
             });
@@ -249,7 +249,7 @@ class AppTicketsController extends Controller
         $settings = Settings::all()->first();
 
         Mail::send('mails.testmail', ['ticket' => $ticket, 'department' => $department], function ($message) use ($settings) {
-            $message->from('support@ndvhs.com', 'NDVHS Sahoolat');
+            $message->from('support@ndvhs.com', 'Resident Care');
             $message->subject('New Ticket Created');
             $message->to('m.aliahmed0@gmail.com');
         });
