@@ -21,7 +21,7 @@
                         <div class="login-front">
                             <div>
                                 <center>
-                                    <img width="250" src="{{asset('uploads')}}/full_logo.png" alt="logo">
+                                    <img width="250" src="{{asset('uploads')}}/{{$settings['logo']}}" alt="logo">
                                     <p>
                                         {{$settings['footer_description']}}
                                     </p>

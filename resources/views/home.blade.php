@@ -12,9 +12,9 @@
                     <div class="login-front">
                         <div>
 
-                                <img width="250" src="{{asset('uploads')}}/full_logo.png" alt="logo">
-                                <p>
-                                </p>
+                            <img width="250" src="{{asset('uploads')}}/{{$settings['logo']}}" alt="logo">
+                            <p>
+                            </p>
 
                         </div>
                     </div>
@@ -22,11 +22,8 @@
             </div>
             <div class="col-md-6">
 
-                <div class="follow-text mg-2" >
 
-                    <a href="{{url('/new/ticket')}}" class="btn btn-default">Create New Ticket</a>
-
-                </div>
+                <a href="{{url('/new/ticket')}}" class="btn btn-default"><button class="btn btn-primary-outline" >Create New Ticket</button></a>
 
 
             </div>
