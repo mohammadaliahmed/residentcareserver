@@ -227,11 +227,11 @@ class AppTicketsController extends Controller
             $department = Departments::find($request->department_id);
 
 
-            Mail::send('mails.appthanks', ['ticket' => $request, 'department' => $department, 'username' => $usr->name, 'subject' => $request->title], function ($message) use ($settings) {
-                $message->from('support@ndvhs.com', 'Resident Care');
-                $message->subject('New Ticket Created');
-                $message->to($settings->admin_email);
-            });
+//            Mail::send('mails.appthanks', ['ticket' => $request, 'department' => $department, 'username' => $usr->name, 'subject' => $request->title], function ($message) use ($settings) {
+//                $message->from('support@ndvhs.com', 'Resident Care');
+//                $message->subject('New Ticket Created');
+//                $message->to($settings->admin_email);
+//            });
 
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false", 'ticket' => $ticket
