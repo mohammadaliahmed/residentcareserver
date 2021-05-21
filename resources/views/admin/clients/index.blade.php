@@ -40,7 +40,7 @@
                                                             <img src="{{asset('uploads')}}/avatar.png" alt="avatar"
                                                                  class="img-circle" style="height: 40px; width:40px">
                                                         @else
-                                                            <img src="{{asset('uploads')}}/{{$user->avatar}}"
+                                                            <img src="public/{{asset('uploads')}}/{{$user->avatar}}"
                                                                  alt="avatar" class="img-circle"
                                                                  style="height: 40px; width:40px">
 
