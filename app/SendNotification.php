@@ -8,7 +8,7 @@ class SendNotification extends Model
 {
     public function sendPushNotification($fcm_token, $title, $message, $id, $type)
     {
-        $push_notification_key = 'AAAA0YUiLng:APA91bFaftYj6m-p6NpIkXpS2xLSFbnnBhYz-J1AHjA1f6gRkK3cpFH5SxPHgnUUJ11kNo9jTyDxmSKpPRTWwOmi3SBXVwaztf08iRQuQV6u51NuqasZ6XnOa4bivL4Ens-6z_OgJN5b';
+        $push_notification_key = 'AAAAOnRvmBY:APA91bEHzYmFXknC1u-FfsBIpyw06_alv7fonEq127wpHGr8UuVtgABkIwn48eyDZkTlRUMR50Vh_vbQA7Wz8aZC8PIAI-RtckKnCbc9MeY9NzM5cl6u9foLKh1t42Qh2LArAWzB81G0';
         $url = "https://fcm.googleapis.com/fcm/send";
         $header = array("authorization: key=" . $push_notification_key . "",
             "content-type: application/json"
