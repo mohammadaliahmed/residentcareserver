@@ -31,6 +31,59 @@
         </div>
 
     </section>
+    <hr>
+    <div style="background-color: #213C51" class="row">
+        <div class="container">
+            <div class="col-md-6">
+
+                <center><h1 style="color: #fff; margin-top: 200px;">
+                        NDVHS SAHOOLAT
+
+                    </h1>
+                    <p style="color: #fff; margin-top: 20px;">
+                        Download and register complaints via the app
+
+                    </p>
+
+
+                    <a href="https://apps.apple.com/us/app/ndvhs-sahoolat/id1554987413">
+                        <img width="300" src="http://sahoolat.ndvhs.com/uploads/get_it_on_app_store.png">
+                    </a>
+                </center>
+
+            </div>
+            <div class="col-md-6">
+                <img width="500" src="http://sahoolat.ndvhs.com/uploads/iphone_mockup.png">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div style="background-color: #213C51" class="row">
+
+        <div class="col-md-6">
+            <center>
+                <img width="400" src="http://sahoolat.ndvhs.com/uploads/note_10.png">
+            </center>
+        </div>
+        <div class="col-md-6">
+
+            <center><h1 style="color: #fff; margin-top: 200px;">
+                    NDVHS SAHOOLAT
+
+                </h1>
+                <p style="color: #fff; margin-top: 20px;">
+                    Download and register complaints via the app
+
+                </p>
+
+
+                <a href="sahoolat.apk">
+                    <img width="300" src="http://sahoolat.ndvhs.com/uploads/get_it_on_play_store.png">
+                </a>
+            </center>
+
+        </div>
+    </div>
     {{--<section id="login-role">--}}
     {{--<div class="login-role">--}}
     {{--<div class="container">--}}
