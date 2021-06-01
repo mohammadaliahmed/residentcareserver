@@ -37,7 +37,7 @@
             <div class="col-md-6">
 
                 <center><h1 style="color: #fff; margin-top: 200px;">
-                        NDVHS SAHOOLAT
+                        Resident Care
 
                     </h1>
                     <p style="color: #fff; margin-top: 20px;">
@@ -68,7 +68,7 @@
         <div class="col-md-6">
 
             <center><h1 style="color: #fff; margin-top: 200px;">
-                    NDVHS SAHOOLAT
+                    Resident Care
 
                 </h1>
                 <p style="color: #fff; margin-top: 20px;">
