@@ -21,10 +21,18 @@
                         <div class="login-front">
                             <div>
                                 <center>
-                                    <img width="250" src="{{asset('uploads')}}/{{$settings['logo']}}" alt="logo">
-                                    <p>
-                                        {{$settings['footer_description']}}
-                                    </p>
+                                    <img width="200" src="{{asset('uploads')}}/{{$settings['logo']}}" alt="logo">
+
+                                    <br>
+                                    <strong>Admin Username: admin<br>
+                                        Admin Password: 12345678<br><br>
+
+                                        Client Username: client<br>
+                                        Client Password: 12345678<br><br>
+
+                                        Staff Username: staff<br>
+                                        Staff Password: 12345678<br><br>
+                                    </strong>
                                 </center>
                             </div>
                         </div>
