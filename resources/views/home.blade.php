@@ -77,7 +77,7 @@
                 </p>
 
 
-                <a href="sahoolat.apk">
+                <a href="http://residentcare.co/residentcare.apk">
                     <img width="300" src="http://sahoolat.ndvhs.com/uploads/get_it_on_play_store.png">
                 </a>
             </center>
