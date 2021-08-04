@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcf3b20-6487-4831-afa5-70eb5e874da7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
+            <state relative-caret-position="1445">
+              <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -28,8 +29,48 @@
       <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="226" column="0" lean-forward="false" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppTicketsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -39,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>padding-right: 15px;</find>
-      <find>housen</find>
       <find>hou</find>
       <find>house</find>
       <find>house number</find>
@@ -69,6 +108,8 @@
       <find>Ticket Plus</find>
       <find>resu</find>
       <find>.apk</find>
+      <find>alltick</find>
+      <find>allt</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -101,10 +142,8 @@
         <option value="$PROJECT_DIR$/resources/views/terms.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Constants.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/settings/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SettingsController.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FileUploadController.php" />
@@ -112,7 +151,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2021_01_19_102256_add_code_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_01_20_041909_add_phone_to_settings_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/staff/add.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/StaffController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/staff/index.blade.php" />
@@ -135,11 +173,14 @@
         <option value="$PROJECT_DIR$/resources/views/mails/contact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/mails/testmail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" />
         <option value="$PROJECT_DIR$/app/SendNotification.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -277,7 +318,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/resources/views/auth/login.blade.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/resources/views/home.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/AppTicketsController.php&#10;ticketsc&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/TicketsController.php&#10;tick&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/AppTicketsController.php&#10;register&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/auth/register.blade.php&#10;cus&#9;FILE&#9;file://C:/xampp/htdocs/ticket/public/css/custom.css&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/layouts/app.blade.php&#10;clientsc&#9;null&#9;null&#10;staff&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/StaffController.php&#10;file&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/FileUploadController.php&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/UserController.php&#10;fileupl&#9;null&#9;null&#10;filesyst&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/filesystems.php&#10;app.p&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/app.php&#10;ticket&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;repl&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Replies.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/ticket/routes/web.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/app.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/ticket/.env&#10;appc&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;replies&#9;null&#9;null&#10;.en&#9;FILE&#9;file://C:/xampp/htdocs/ticket/.env&#10;appti&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;settin&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/SettingsController.php&#10;ticketco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/UserController.php&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/auth/register.blade.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/User.php&#10;send&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/SendNotification.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/ticket/routes/api.php&#10;hom&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/HomeController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/UserController.php&#10;app.m&#9;FILE&#9;file://C:/xampp/htdocs/ticket/public/css/app.min.css&#10;tickets&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;client/e&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/clients/edit.blade.php&#10;role&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Role.php&#10;staffco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/StaffController.php&#10;staff\ed&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/staff/edit.blade.php&#10;apptic&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;test&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/mails/testmail.blade.php&#10;sendpush&#9;null&#9;null&#10;apptick&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;ticketc&#9;null&#9;null&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/clients/edit.blade.php&#10;SettingsController&#9;null&#9;null&#10;clie&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/ClientsController.php&#10;detai&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/tickets/details.blade.php&#10;detail&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/tickets/details.blade.php&#10;appco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php" />
+    <property name="SearchEverywhereHistoryKey" value="userco&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/.env&#10;AppTicketsController&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/AppTicketsController.php&#10;const&#9;null&#9;null&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/routes/api.php&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/resources/views/auth/login.blade.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/resources/views/home.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/AppTicketsController.php&#10;ticketsc&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/TicketsController.php&#10;tick&#9;FILE&#9;file://C:/xampp/htdocs/residentcare/app/Http/Controllers/AppTicketsController.php&#10;register&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/auth/register.blade.php&#10;cus&#9;FILE&#9;file://C:/xampp/htdocs/ticket/public/css/custom.css&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/layouts/app.blade.php&#10;clientsc&#9;null&#9;null&#10;staff&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/StaffController.php&#10;file&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/FileUploadController.php&#10;fileupl&#9;null&#9;null&#10;filesyst&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/filesystems.php&#10;app.p&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/app.php&#10;ticket&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;repl&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Replies.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/ticket/routes/web.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/ticket/config/app.php&#10;appc&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;replies&#9;null&#9;null&#10;.en&#9;FILE&#9;file://C:/xampp/htdocs/ticket/.env&#10;appti&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;settin&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/SettingsController.php&#10;ticketco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/UserController.php&#10;regi&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/auth/register.blade.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/User.php&#10;send&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/SendNotification.php&#10;hom&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/HomeController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/UserController.php&#10;app.m&#9;FILE&#9;file://C:/xampp/htdocs/ticket/public/css/app.min.css&#10;tickets&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/TicketsController.php&#10;client/e&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/clients/edit.blade.php&#10;role&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Role.php&#10;staffco&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/StaffController.php&#10;staff\ed&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/staff/edit.blade.php&#10;apptic&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;test&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/mails/testmail.blade.php&#10;sendpush&#9;null&#9;null&#10;apptick&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/AppTicketsController.php&#10;ticketc&#9;null&#9;null&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/admin/clients/edit.blade.php&#10;SettingsController&#9;null&#9;null&#10;clie&#9;FILE&#9;file://C:/xampp/htdocs/ticket/app/Http/Controllers/Admin/ClientsController.php&#10;detai&#9;FILE&#9;file://C:/xampp/htdocs/ticket/resources/views/tickets/details.blade.php" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -424,28 +465,31 @@
       <workItem from="1622523744908" duration="906000" />
       <workItem from="1622616243603" duration="4000" />
       <workItem from="1623821141001" duration="9431000" />
-      <workItem from="1623923382620" duration="40000" />
+      <workItem from="1623923382620" duration="1099000" />
+      <workItem from="1624516246670" duration="1000" />
+      <workItem from="1627110116318" duration="1379000" />
+      <workItem from="1628059804839" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217705000" />
+    <option name="totallyTimeSpent" value="220181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22014925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22654584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -486,34 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FileUploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/staff/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/StaffController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/staff/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="63" column="70" lean-forward="false" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_01_20_041909_add_phone_to_settings_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -792,25 +808,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="214" column="48" lean-forward="true" selection-start-line="214" selection-start-column="48" selection-end-line="214" selection-end-column="48" />
+        <state relative-caret-position="1445">
+          <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AppTicketsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="226" column="0" lean-forward="false" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding />
         </state>
       </provider>

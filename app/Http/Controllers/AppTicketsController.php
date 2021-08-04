@@ -67,12 +67,13 @@ class AppTicketsController extends Controller
     public function allTickets(Request $request)
     {
 
+
         if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
             return response()->json([
                 'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
             ], Response::HTTP_FORBIDDEN);
         } else {
-            $tickets = DB::table('tickets')->where('user_id', $request->id)->orderBy('id', 'desc')->get();
+            $tickets = DB::table('tickets')->orderBy('id', 'desc')->get();
             foreach ($tickets as $ticket) {
                 if ($ticket->assigned_to != null) {
                     $ticket->staff = User::find($ticket->assigned_to);
